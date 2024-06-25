@@ -1,0 +1,9 @@
+.banner{
+    width: fit-content;
+    margin: 120px auto;
+}
+.banner > img {
+    width: 90vw;
+    display: block;
+    border-radius: 8px;
+}
