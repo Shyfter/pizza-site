@@ -1,7 +1,10 @@
 import "./pizza.css";
 import React from "react";
+import PizzaCard from "./pizzaCard";
 
 export default function Pizza() {
+
+
 
     const pizzaArray = {
         0 : {
@@ -29,27 +32,21 @@ export default function Pizza() {
             pretMare : "38 lei"
         }
     }
-
     const cardRenderer = []
     
     function RenderCard() {
         for (let i=0; i < 3; i++){
             cardRenderer.push(
-            <div key={pizzaArray[i].id} className="pizza-card">
-                <img className="card-pic" alt="pizza" src={pizzaArray[i].imgUrl}></img>
-                <div className="card-bottom-section">
-                    <h4 className="pizza-name">{pizzaArray[i].title}</h4>
-                    <p className="pizza-description">{pizzaArray[i].description}</p>
-                    <div className="pizza-dimensiuni">
-                        <div className="pizza-mica">
-                            Mica - {pizzaArray[i].pretMica}
-                        </div>
-                        <div className="pizza-mare">
-                            Mare - {pizzaArray[i].pretMare}
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <PizzaCard 
+                key={pizzaArray[i].id}
+                id={pizzaArray[i].id} 
+                imgUrl={pizzaArray[i].imgUrl} 
+                title={pizzaArray[i].title}
+                description={pizzaArray[i].description}
+                pretMica={pizzaArray[i].pretMica}
+                pretMare={pizzaArray[i].pretMare}
+                number={i}
+                />
             )
         }
     }
@@ -57,7 +54,7 @@ export default function Pizza() {
     RenderCard()
 
     return (
-        <div className="pizza-section">
+        <div id="pizza" className="pizza-section">
             <h3 className="pizza-section-title">Pizza</h3>
 
             {cardRenderer}

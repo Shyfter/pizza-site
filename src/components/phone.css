@@ -1,0 +1,13 @@
+.phone {
+    position: fixed;
+    right:40px;
+    bottom:40px;
+    background-color: rgb(99, 201, 86);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.phone > img {
+    width: 35px;
+    display: block;
+}

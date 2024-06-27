@@ -1,6 +1,7 @@
 .banner{
     width: fit-content;
-    margin: 120px auto;
+    margin: 0px auto;
+    padding-top: 120px;
 }
 .banner > img {
     width: 90vw;

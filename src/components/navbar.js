@@ -34,8 +34,8 @@ export default function Navbar() {
             </div>
             <nav className="navbar">
                 <div className="navOptions" id="navOptions">
-                    <div className="Home" onClick={()=>{closeMenu()}}><a href="#home">Acasa</a></div>
-                    <div className="Projects" onClick={()=>{closeMenu()}}><a href="#quizz-app">Pizza</a></div>
+                    <div className="Home" onClick={()=>{closeMenu()}}><a href="#top">Acasa</a></div>
+                    <div className="Projects" onClick={()=>{closeMenu()}}><a href="#pizza">Pizza</a></div>
                     <div className="Projects" onClick={()=>{closeMenu()}}><a href="#tenzies-app">Contact</a></div>
                 </div>
                 <div className="logo">
