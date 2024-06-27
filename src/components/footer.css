@@ -1,0 +1,33 @@
+.footer > div > div > img {
+    height: 40px;
+}
+
+#contact {
+    width: 90vw;
+    margin: 180px auto 110px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title {
+    margin: 0px auto;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer > div {
+    margin: 30px 5px;
+    width: 45%;
+}
+
+.footer > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

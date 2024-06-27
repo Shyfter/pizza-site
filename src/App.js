@@ -4,6 +4,8 @@ import Banner from "./components/banner";
 import Acasa from "./components/acasa";
 import Pizza from "./components/pizza";
 import Phone from './components/phone';
+import Footer from './components/footer';
+import Copyright from './components/copyright';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Acasa />
         <Pizza />
         <Phone />
+        <Footer />
+        <Copyright />
     </div>
   );
 }

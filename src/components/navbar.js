@@ -36,7 +36,7 @@ export default function Navbar() {
                 <div className="navOptions" id="navOptions">
                     <div className="Home" onClick={()=>{closeMenu()}}><a href="#top">Acasa</a></div>
                     <div className="Projects" onClick={()=>{closeMenu()}}><a href="#pizza">Pizza</a></div>
-                    <div className="Projects" onClick={()=>{closeMenu()}}><a href="#tenzies-app">Contact</a></div>
+                    <div className="Projects" onClick={()=>{closeMenu()}}><a href="#contact">Contact</a></div>
                 </div>
                 <div className="logo">
                     <img src="./pics/white-logo-2.png" alt="Logo"></img>
