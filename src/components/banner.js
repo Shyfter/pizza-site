@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Banner() {
     return (
-        <div id="top" className="banner">
-            <img src="./pics/banner-pizza.png" alt="banner"></img>
+        <div className="banner">
+            <img src="./pics/background-baraca-2.jpg" alt="banner"></img>
         </div>
     )
 }

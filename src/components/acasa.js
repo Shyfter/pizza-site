@@ -5,15 +5,15 @@ export default function Acasa() {
     return (
         <div className="acasa">
             <h2 className="acasa-title">
-                Baraca Pizza & Grill
+                Baraca Grill and More
             </h2>
             <p className="acasa-text">
-                Alege o pizza pe placul tau si 
-                comanda rapid cu livrare la 
-                 tine acasa sau cu ridicare personala.
-                 Suna la <b>123 345</b> si in cel mai
-                 scurt timp te vei putea bucura de 
-                 comanda ta.
+            Preparate Traditionale Romanesti & Preparate
+             Internationale & Fast Food. <br></br>
+             Alege ce-ti face cu ochiul din meniul nostru vast,
+             ce contine de la pizza pana la papanasi sau clatite,
+             iar apoi suna si comanda.<br></br> Poti alege ridicare
+             personala sau livrare la tine acasa.
             </p>
         </div>
     )

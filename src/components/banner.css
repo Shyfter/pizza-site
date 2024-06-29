@@ -1,10 +1,11 @@
 .banner{
     width: fit-content;
-    margin: 0px auto;
-    padding-top: 120px;
+    margin: 80px auto;
+    /* padding-top: 120px; */
+    background: red;
+    overflow: hidden;
 }
 .banner > img {
-    width: 90vw;
+    width: 100vw;
     display: block;
-    border-radius: 8px;
 }

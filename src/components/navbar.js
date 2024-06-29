@@ -26,7 +26,8 @@ export default function Navbar() {
 
 
     return (
-        <>
+        <>  
+            <div id="top"></div>
             <div id='menu' className="container" onClick={()=>{myFunction()}}>
                 <div className="bar1"></div>
                 <div className="bar2"></div>
@@ -35,7 +36,7 @@ export default function Navbar() {
             <nav className="navbar">
                 <div className="navOptions" id="navOptions">
                     <div className="Home" onClick={()=>{closeMenu()}}><a href="#top">Acasa</a></div>
-                    <div className="Projects" onClick={()=>{closeMenu()}}><a href="#pizza">Pizza</a></div>
+                    <div className="Projects" onClick={()=>{closeMenu()}}><a href="#meniu">Meniu</a></div>
                     <div className="Projects" onClick={()=>{closeMenu()}}><a href="#contact">Contact</a></div>
                 </div>
                 <div className="logo">
