@@ -4,10 +4,10 @@ import "./footer.css";
 export default function Footer() {
     return (
     <footer id="contact">
-        <img src="./pics/logo-la-baraca.jpg"></img>
+        <img src="./pics/logo-la-baraca.jpg" alt="logo"></img>
         <h2 className="contact-title">Baraca Grill & More</h2>
         <div className="location" onClick={()=>{window.open('https://maps.app.goo.gl/WYHNJhZFwADgBeW67')}}>
-            <img src="./pics/location.png"></img>
+            <img src="./pics/location.png" alt="location"></img>
             <p>Str Bujorului 1, Lisa, 147170, TR, Romania</p>
         </div>
         <div className="phone1">
