@@ -3,9 +3,12 @@
     margin: 160px auto 50px auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #contact > img {
+    max-width: 370px;
+    max-height: 380px;
     border-radius: 45% 57%;
     margin-bottom: 40px;
 }

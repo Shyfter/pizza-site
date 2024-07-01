@@ -1,16 +1,15 @@
 import React from "react";
 import "./phone.css";
 
-export default function Phone() {
-    
-    window.onscroll = () => {
-        let scrolled = window.scrollY;
-        if (scrolled > 1200){
-            document.getElementById('phone').style.display="none"
-        }else {
-            document.getElementById('phone').style.display="block"
-        }
-    }
+export default function Phone(props) {
+    // window.onscroll = () => {
+    //     let scrolled = window.scrollY;
+    //     if (scrolled > 1200){
+    //         document.getElementById('phone').style.display="none"
+    //     }else {
+    //         document.getElementById('phone').style.display="block"
+    //     }
+    // }
 
 
 

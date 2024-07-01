@@ -4,7 +4,7 @@ import React from "react";
 export default function Banner() {
     return (
         <div className="banner">
-            <img src="./pics/background-baraca-2.jpg" alt="banner"></img>
+            <img src="./pics/background-baraca.jpg" alt="banner"></img>
         </div>
     )
 }
